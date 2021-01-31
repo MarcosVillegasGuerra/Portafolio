@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.snap-container {
+    height: 100vh;  
+    overflow:scroll;
+    scroll-snap-type:y mandatory;  
+}
+
+.snap-section {
+    scroll-snap-align: center;
+    height: 100vh;
+}
+
+
+
+
